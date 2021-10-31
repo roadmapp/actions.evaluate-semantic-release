@@ -1,0 +1,39 @@
+name: 'Semantic Release'
+description: 'Evaluate next release version'
+inputs:
+  branches:
+    description: 'Set of release branches separated by newline'
+    required: false
+    default: |
+      +([0-9])?(.{+([0-9]),x}).x
+      master
+      next
+      next-major
+      { "name": "alpha", "prerelease": true }
+      { "name": "beta", "prerelease": true }
+  plugins:
+    description: Set of plugins to use
+    required: false
+    default: |
+      @semantic-release/commit-analyzer
+      @semantic-release/release-notes-generator
+  noFailOnNothingToRelease:
+    description: 'Do not fail if nothing to release'
+    required: false
+    default: 'false'
+outputs:
+  version:
+    description: "Next release version"
+  notes:
+    description: "Release notes"
+  type:
+    description: "Release type (minor | major | patch)"
+  tag:
+    description: "Tag name"
+  channel:
+    description: "Channel name"
+  name:
+    description: "Release name"
+runs:
+  using: 'node12'
+  main: 'index.js'
