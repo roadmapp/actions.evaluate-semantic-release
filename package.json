@@ -1,5 +1,5 @@
 {
-  "name": "@roadmapp/evaluate-semantic-release",
+  "name": "@roadmapp/actions.evaluate-semantic-release",
   "version": "0.0.0-semantic-release",
   "description": "GitHub Action for Semantic Release",
   "main": "index.js",
