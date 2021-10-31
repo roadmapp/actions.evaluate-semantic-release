@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/roadmapp/evaluate-semantic-release.git"
+    "url": "git+https://github.com/roadmapp/actions.evaluate-semantic-release.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
@@ -13,9 +13,9 @@
   "author": "Yuri Khmelevskyi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/roadmapp/evaluate-semantic-release/issues"
+    "url": "https://github.com/roadmapp/actions.evaluate-semantic-release/issues"
   },
-  "homepage": "https://github.com/roadmapp/evaluate-semantic-release#readme",
+  "homepage": "https://github.com/roadmapp/actions.evaluate-semantic-release#readme",
   "dependencies": {
     "@actions/core": "^1.4.0",
     "@actions/github": "^5.0.0",
