@@ -15,10 +15,10 @@ jobs:
         with:
           node-version: 14
           registry-url: 'https://npm.pkg.github.com'
-          scope: '@roadmapp'
+          scope: '@scopews'
 
       - name: Publish To GitHub Package Registry
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NODE_AUTH_TOKEN: ${{ secrets.ROADMAPP_GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.SCOPEWS_NPM_TOKEN }}
         run: npx semantic-release

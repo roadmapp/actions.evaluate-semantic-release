@@ -1,21 +1,21 @@
 {
-  "name": "@roadmapp/actions.evaluate-semantic-release",
+  "name": "@scopews/actions.evaluate-semantic-release",
   "version": "0.0.0-semantic-release",
   "description": "GitHub Action for Semantic Release",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/roadmapp/actions.evaluate-semantic-release.git"
+    "url": "git+https://github.com/scopews/actions.evaluate-semantic-release.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
-  "author": "Yuri Khmelevskyi",
+  "author": "Yuri Khmelevsky",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/roadmapp/actions.evaluate-semantic-release/issues"
+    "url": "https://github.com/scopews/actions.evaluate-semantic-release/issues"
   },
-  "homepage": "https://github.com/roadmapp/actions.evaluate-semantic-release#readme",
+  "homepage": "https://github.com/scopews/actions.evaluate-semantic-release#readme",
   "dependencies": {
     "@actions/core": "^1.4.0",
     "@actions/github": "^5.0.0",
